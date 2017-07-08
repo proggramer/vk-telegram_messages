@@ -7,6 +7,6 @@ You need:
 3) [vk_api library](https://github.com/python273/vk_api) (for easy work with Vk API)
 4) Bot in Telegram (@BotFather helps you)
 
-Functionality: Bot works only with text. Photo, vidio and another good things will be added in future... Maybe :D
+Functionality: Bot works only with text. Photo, video and another good things will be added in future... Maybe :D
 
 Attention: It's only early version of bot. It can have problems with normal work and security of your Vk page and Telegram account.
