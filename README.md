@@ -1,2 +1,2 @@
 # vk-telegram_messages
-Easy messages from vk in telegramm
+Easy messages from Vk to Telegramm
