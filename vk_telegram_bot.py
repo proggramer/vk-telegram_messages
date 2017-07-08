@@ -33,7 +33,7 @@ def main():
             elif event.from_group:
                 text_message = text_message + ' группы' + str(event.group_id) + '\n' #Translation: "of group"
 
-            text_message = text_message + 'Текст: ' + event.text # Translation: "Text"
+            text_message = text_message + 'Текст: ' + event.text #Translation: "Text"
 
 
             bot.send_message(LISTENER_ID,text_message) #Sending message in Telegramm
