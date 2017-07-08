@@ -29,11 +29,11 @@ def main():
             if event.from_user:
                 text_message = text_message + str(event.user_id) + '\n'
             elif event.from_chat:
-                text_message = text_message + ' в бесседе' + str(event.chat_id) + '\n'
+                text_message = text_message + ' в бесседе' + str(event.chat_id) + '\n' #Translation: "in chat"
             elif event.from_group:
-                text_message = text_message + ' группы' + str(event.group_id) + '\n'
+                text_message = text_message + ' группы' + str(event.group_id) + '\n' #Translation: "of group"
 
-            text_message = text_message + 'Текст: ' + event.text
+            text_message = text_message + 'Текст: ' + event.text # Translation: "Text"
 
 
             bot.send_message(LISTENER_ID,text_message) #Sending message in Telegramm
